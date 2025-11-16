@@ -1,0 +1,22 @@
+@import "./fonts.css";
+@import "./variables.css";
+@import "./header.css";
+@import "./hero.css";
+@import "./rates.css";
+@import "./get-money.css";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main-page {
+  display: flex;
+  flex-direction: column;
+  gap: 140px;
+}
+.header-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}

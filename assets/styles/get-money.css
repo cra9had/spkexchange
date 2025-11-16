@@ -1,0 +1,47 @@
+.ways-to-get-money {
+  padding: 0 104px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+.get-money-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+}
+.get-money-card {
+  border: 1px solid #6072f266;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px 42px 50px;
+}
+.get-money-card img {
+  width: 100%;
+  height: 100%;
+  margin: 0auto;
+}
+
+.get-money-card-texts {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-top: 18px;
+}
+.get-money-card-title {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 120%;
+  font-variant: small-caps;
+}
+
+.get-money-card-description {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 30px;
+  line-height: 140%;
+  font-variant: small-caps;
+}

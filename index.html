@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SPK exchange</title>
+    <link rel="stylesheet" href="/assets/styles/index.css" />
+  </head>
+  <body>
+    <div class="main-page">
+        <header class="header">
+          <div class="header-container">
+            <div class="logo">SPK exchange</div>
+            <div class="links">
+              <ul>
+                <li>
+                  <a href="#">Курс обмена</a>
+                </li>
+                <li>
+                  <a href="#">Получения валюты</a>
+                </li>
+                <li>
+                  <a href="#">Частые вопросы</a>
+                </li>
+                <li>
+                  <a href="#">Контакты</a>
+                </li>
+              </ul>
+              <div class="social-links">
+                <a href="https://t.me/spk_exchange" target="_blank">
+                  <img src="/assets/icons/tg.svg" alt="telegram" />
+                </a>
+                <a href="https://wa.me/74951498989" target="_blank">
+                  <img src="/assets/icons/whatsapp.svg" alt="whatsapp" />
+                </a>
+              </div>
+            </div>
+            <div class="contacts">
+              <a href="tel:+74951498989" class="phone">+7 495 149-89-89</a>
+              <div class="we-online">
+                <div class="circle"></div>
+                <span>Мы в сети</span>
+              </div>
+            </div>
+          </div>
+        </header>
+        <section class="hero">
+          <div class="hero-content">
+            <h1 class="title">Сеть обменных пунктов в Таиланде</h1>
+            <img src="/assets/images/vector.svg" alt="vector" class="vector" />
+            <p class="description">
+              Надёжный и удобный обмен валют <br />
+              по лучшим курсам
+            </p>
+          </div>
+          <div class="hero-exchanger-wrapper">
+            <div class="hero-exchanger">
+              <div class="hero-exchanger-card">
+                <div class="send-card">
+                  <div class="send">Отдаю</div>
+                  <input
+                    type="text"
+                    placeholder="Сумма"
+                    class="amount amount1"
+                    value="25029,08 ₽" />
+                </div>
+                <div class="currency-card">
+                  <div class="currency-card-title">1 RUB = 0.40 THB</div>
+                  <div class="currencies-card">
+                    <div class="active-currency">
+                      <div class="flag"></div>
+                      <div class="code"></div>
+                      <img
+                        src="/assets/icons/down.svg"
+                        alt="down"
+                        class="down-icon" />
+                    </div>
+                    <div class="currencies"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="hero-exchanger-card">
+                <div class="exchanger-icon">
+                  <img
+                    src="/assets/icons/exchange.svg"
+                    alt="exchanger"
+                    class="exchanger-icon-img" />
+                </div>
+                <div class="send-card">
+                  <div class="send">Получаю</div>
+                  <input
+                    type="text"
+                    placeholder="Сумма"
+                    class="amount amount2"
+                    value="25029,08 ₽" />
+                </div>
+                <div class="currency-card">
+                  <div class="currency-card-title">1 RUB = 0.40 THB</div>
+                  <div class="currencies-card">
+                    <div class="active-currency">
+                      <div class="flag"></div>
+                      <div class="code"></div>
+                      <img
+                        src="/assets/icons/down.svg"
+                        alt="down"
+                        class="down-icon" />
+                    </div>
+                    <div class="currencies"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="exchange-buttons">
+              <div class="exchange-button">Банкомат</div>
+              <div class="exchange-button">На карту</div>
+              <div class="exchange-button">Доставка наличных</div>
+            </div>
+            <div class="button">Получить деньги</div>
+          </div>
+        </section>
+     
+      <!-- Курс обмена в баты -->
+      <section class="rates">
+        <div class="rates-content">
+          <h2 class="second-title">Курс обмена в баты</h2>
+          <div class="rates-table">
+            <div class="rates-table-header">
+              <div class="rates-table-header-cell">Валюта</div>
+              <div class="rates-table-header-cell">Отдаете валюту</div>
+              <div class="rates-table-header-cell">Покупаете валюту</div>
+            </div>
+            <div class="rates-table-body" id="rates-table-body"></div>
+          </div>
+        </div>
+      </section>
+      <!-- Способы получения валюты -->
+      <section class="ways-to-get-money">
+        <div class="ways-to-get-money-content">
+          <h2 class="second-title">Способы получения валюты</h2>
+        </div>
+        <div class="get-money-cards">
+          <div class="get-money-card">
+            <img src="/assets/icons/atm.svg" alt="" />
+            <div class="get-money-card-texts">
+              <div class="get-money-card-title">В ближайшем банкомате</div>
+              <div class="get-money-card-description">
+                Снимайте наличные без банковской карты
+              </div>
+            </div>
+          </div>
+          <div class="get-money-card">
+            <img src="/assets/icons/cash.svg" alt="" />
+            <div class="get-money-card-texts">
+              <div class="get-money-card-title">Доставка наличных бат</div>
+              <div class="get-money-card-description">
+                Курьер привезёт деньги прямо к вам
+              </div>
+            </div>
+          </div>
+          <div class="get-money-card">
+            <img src="/assets/icons/card.svg" alt="" />
+            <div class="get-money-card-texts">
+              <div class="get-money-card-title">На счёт тайского банка</div>
+              <div class="get-money-card-description">
+                Перевод по реквизитам без комиссии
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="/js/currencies.js" type="module"></script>
+    <script src="/js/rates.js" type="module"></script>
+  </body>
+</html>

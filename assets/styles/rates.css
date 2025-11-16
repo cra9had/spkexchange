@@ -1,0 +1,64 @@
+.rates {
+  max-width: 1330px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.rates-content {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.second-title {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 60px;
+  line-height: 120%;
+  text-align: center;
+  text-transform: uppercase;
+}
+.rates-table-header {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  align-items: start;
+  gap: 44px;
+}
+.rates-table-header-cell {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 32px;
+  line-height: 140%;
+  text-align: start;
+  font-variant: small-caps;
+}
+
+.rates-table-body {
+  margin-top: 54px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.rates-table-body-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rates-table-body-cell img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+.rates-table-body-cell {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 42px;
+  line-height: 120%;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
