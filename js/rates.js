@@ -3,8 +3,8 @@ const rateRows = [
     code: "RUB",
     label: "RUB",
     flag: "/assets/icons/ru.svg",
-    give: "6.44",
-    get: "6.51",
+    give: "605.23",
+    get: "606.07",
   },
   {
     code: "USDT",

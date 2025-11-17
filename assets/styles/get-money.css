@@ -44,3 +44,54 @@
   line-height: 140%;
   font-variant: small-caps;
 }
+
+@media screen and (max-width: 1024px) {
+  .ways-to-get-money {
+    gap: 30px;
+  }
+  .get-money-cards {
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+  .get-money-card:nth-child(3) {
+    grid-column: 1 / -1;
+    justify-self: center;
+    max-width: calc(50% - 8px);
+  }
+  .get-money-card {
+    padding: 24px 32px;
+  }
+  .get-money-card-title {
+    font-size: 27px;
+  }
+  .get-money-card-description {
+    font-size: 20px;
+  }
+  .get-money-card-texts {
+    gap: 8px;
+    margin-top: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .ways-to-get-money {
+    gap: 30px;
+  }
+  .get-money-cards {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .get-money-card {
+    padding: 12px 16px 32px 12px;
+  }
+  .get-money-card-title {
+    font-size: 20px;
+  }
+  .get-money-card-description {
+    font-size: 16px;
+  }
+  .get-money-card-texts {
+    gap: 8px;
+    margin-top: 16px;
+  }
+}
