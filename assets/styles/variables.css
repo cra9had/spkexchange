@@ -10,3 +10,9 @@
 .text-white {
   color: var(--white);
 }
+.text-start {
+  text-align: start !important;
+}
+.relative {
+  position: relative;
+}
