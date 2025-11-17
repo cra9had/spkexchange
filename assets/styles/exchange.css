@@ -28,8 +28,14 @@
 .exchange-for-today-button {
   max-width: 537px;
 }
+@media screen and (max-width: 1439px) {
+  .exchange-for-today {
+    gap: 32px;
+  }
+}
 
 @media screen and (max-width: 1024px) {
+  
   .exchange-for-today {
     gap: 32px;
   }

@@ -93,6 +93,9 @@
   }
 }
 @media screen and (max-width: 767px) {
+  .faq {
+    gap: 40px;
+  }
   .faq-item-title-text {
     font-size: 20px;
   }
