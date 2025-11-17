@@ -26,6 +26,10 @@
   background: #272b3d;
   color: var(--white);
 }
+.exchange-button.active {
+  background: #272b3d;
+  color: var(--white);
+}
 
 .white-button {
   background: var(--white);
