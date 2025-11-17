@@ -8,36 +8,93 @@
   display: flex;
   justify-content: space-between;
 }
-.footer-container .links ul {
+.footer-container .footer-links ul {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
-.footer-container .links ul li a {
+.footer-container .footer-links ul li a {
   color: #000000b2;
   text-align: start;
 }
 
-.footer .contacts {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-end;
-    gap: 70px;
+.footer .footer-contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 70px;
 }
-.footer .social-links {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+.footer .footer-social-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 .social-icons {
-    display: flex;
-    gap: 16px;
+  display: flex;
+  gap: 16px;
 }
 .contacts-top-section {
-    display: flex;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: end;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.footer-links ul {
+  display: flex;
+  align-items: center;
+  gap: 42px;
+}
+.footer-social-links {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  cursor: pointer;
+}
+.footer-links ul li {
+  list-style: none;
+}
+.footer-links ul li a {
+  text-decoration: none;
+  color: var(--black);
+  font-size: 22px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+.footer-links ul li a:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+.footer-contacts {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    padding: 32px;
+  }
+  .footer-container {
     flex-direction: column;
-    align-items: flex-end;
-    text-align: end;
+    gap: 32px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .footer {
+    padding: 16px;
+  }
+  .footer-container {
+    flex-direction: column;
+    gap: 32px;
+  }
 }
