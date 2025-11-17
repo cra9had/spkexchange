@@ -6,7 +6,7 @@
 .faq-items {
   display: flex;
   flex-direction: column;
-  gap: 80px;
+  gap: 0;
   max-width: 1712px;
 }
 .faq-item {
@@ -73,4 +73,39 @@
 
 .faq-item.active .dropdown img {
   transform: rotate(180deg);
+}
+@media screen and (max-width: 1024px) {
+  .faq-item-title-text {
+    font-size: 22px;
+    max-width: 474px;
+  }
+  .faq-item-description {
+    font-size: 20px;
+  }
+   .faq .dropdown img {
+    width: 28px;
+  }
+   .faq-item {
+    padding: 30px;
+  }
+  .faq-items {
+    gap: 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  .faq-item-title-text {
+    font-size: 20px;
+  }
+  .faq-item-description {
+    font-size: 18px;
+  }
+  .faq .dropdown img {
+    width: 28px;
+  }
+  .faq-item {
+    padding: 16px 12px;
+  }
+  .faq-items {
+    gap: 0;
+  }
 }

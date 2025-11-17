@@ -28,3 +28,41 @@
 .exchange-for-today-button {
   max-width: 537px;
 }
+
+@media screen and (max-width: 1024px) {
+  .exchange-for-today {
+    gap: 32px;
+  }
+  .exchange-for-today-texts-description {
+    font-size: 22px;
+  }
+  .exchange-right-side img {
+    width: 100%;
+  }
+  .exchange-left-side {
+    gap: 40px;
+  }
+  .exchange-for-today-texts {
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .exchange-for-today {
+    gap: 16px;
+  }
+  .exchange-right-side {
+    display: none;
+  }
+  .exchange-left-side {
+    gap: 32px;
+  }
+  .exchange-for-today-texts {
+    gap: 20px;
+  }
+  .exchange-for-today-texts-description {
+    font-size: 18px;
+  }
+  .exchange-for-today-texts .second-title.text-start {
+    text-align: center !important;
+  }
+}

@@ -94,4 +94,8 @@
     gap: 8px;
     margin-top: 16px;
   }
+  .get-money-card:nth-child(3) {
+    width: 100%;
+    max-width: 100%;
+  }
 }

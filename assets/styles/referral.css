@@ -1,33 +1,60 @@
-
 .referral {
-    background: var(--primary-color);
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    border-radius: 40px;
-    padding: 80px;
+  background: var(--primary-color);
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-radius: 40px;
+  padding: 80px;
+}
+.referral-description {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 32px;
+  line-height: 140%;
+  letter-spacing: 0px;
+  font-variant: small-caps;
+  color: var(--white);
+}
+.referral .left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  gap: 90px;
+}
+
+.left-side-texts {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+@media screen and (max-width: 1024px) {
+  .referral {
+    padding: 32px;
   }
   .referral-description {
-    font-family: Montserrat;
-    font-weight: 500;
-    font-style: Medium;
-    font-size: 32px;
-    line-height: 140%;
-    letter-spacing: 0px;
-    font-variant: small-caps;
-    color: var(--white);
+    font-size: 22px;
+  }
+  .right-side {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .referral {
+    padding: 32px;
+  }
+  .left-side-texts {
+    gap: 8px;
+  }
+  .referral-description {
+    font-size: 18px;
   }
   .referral .left-side {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-    gap: 90px;
+    gap: 30px;
   }
-  
-  .left-side-texts {
-    display: flex;
-    flex-direction: column;
-    gap: 36px;
+  .right-side {
+    display: none;
   }
-  
+}
