@@ -64,7 +64,13 @@
   gap: 30px;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1600px) {
+  .rates-table-header-cell {
+    font-size: 28px;
+  }
+  .rates-table-body-cell {
+    font-size: 28px;
+  }
 }
 @media screen and (max-width: 1024px) {
   .second-title {

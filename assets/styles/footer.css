@@ -79,9 +79,9 @@
   justify-content: flex-end;
   align-items: flex-end;
 }
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 1024px) and (max-width: 1600px) {
   .footer {
-      padding: 30px;
+    padding: 30px;
   }
 }
 @media screen and (max-width: 1024px) {
