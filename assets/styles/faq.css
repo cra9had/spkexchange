@@ -74,7 +74,7 @@
 .faq-item.active .dropdown img {
   transform: rotate(180deg);
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1280px) {
   .faq-item-title-text {
     font-size: 22px;
     max-width: 474px;
@@ -82,14 +82,18 @@
   .faq-item-description {
     font-size: 20px;
   }
-   .faq .dropdown img {
+  .faq .dropdown img {
     width: 28px;
   }
-   .faq-item {
+  .faq-item {
     padding: 30px;
   }
   .faq-items {
     gap: 0;
+  }
+  .faq-item-title-text,
+  .faq-item-description {
+    max-width: 880px;
   }
 }
 @media screen and (max-width: 767px) {
