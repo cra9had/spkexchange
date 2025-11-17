@@ -7,6 +7,9 @@
 @import "./button.css";
 @import "./referral.css";
 @import "./faq.css";
+@import "./exchange.css";
+@import "./footer.css";
+
 * {
   box-sizing: border-box;
   margin: 0;

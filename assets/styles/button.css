@@ -40,3 +40,17 @@
   background: #ebebeb;
   color: var(--black);
 }
+
+.blue-button {
+  background: #6072f2;
+  color: var(--white);
+  border: 0;
+}
+
+.blue-button:hover {
+  background: #5668e8;
+}
+.blue-button:focus,
+.blue-button:active {
+  background: #4c5ede;
+}
