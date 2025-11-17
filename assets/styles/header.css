@@ -89,7 +89,6 @@ body.menu-open {
   overflow: hidden;
 }
 
-
 @media (max-width: 1023px) {
   .show-desktop {
     display: none;
@@ -133,8 +132,7 @@ body.menu-open {
 
   .links ul li a {
     font-size: 20px;
-    color: #000000B2;
-
+    color: #000000b2;
   }
 
   .social-links-wrapper {
@@ -205,18 +203,18 @@ body.menu-open {
     margin-top: 36px;
     padding: 0;
   }
-  .phone { 
+  .phone {
     font-size: 16px;
-    }
-    .we-online span {
-      font-size: 15px;
-      color: #00000080;
-    }
-    .social-links-label {
-      font-size: 15px;
-      font-weight: 600;
-      color: #00000080;
-    }
+  }
+  .we-online span {
+    font-size: 15px;
+    color: #00000080;
+  }
+  .social-links-label {
+    font-size: 15px;
+    font-weight: 600;
+    color: #00000080;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -266,14 +264,18 @@ body.menu-open {
   .header {
     padding: 30px;
   }
-  .logo {
-    font-size: 24px;
-  }
+
   .links {
     gap: 20px;
   }
   .links ul {
     gap: 12px;
+  }
+  .logo {
+    font-size: 22px;
+  }
+  .links ul li a {
+    font-size: 16px;
   }
   .phone {
     font-size: 16px;
@@ -290,12 +292,12 @@ body.menu-open {
   }
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width: 767px) {
   .header {
     padding: 20px 16px;
   }
   .links ul {
-    padding: 48px  16px;
+    padding: 48px 16px;
   }
   .contacts {
     padding: 16px;
