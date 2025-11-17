@@ -42,6 +42,7 @@
   bottom: -10px;
   right: 0;
   max-width: 404px;
+  width: 100%;
 }
 .hero-exchanger {
   display: flex;
@@ -245,4 +246,117 @@
 .exchange-button:hover {
   border: 1px solid var(--black);
   color: var(--black);
+}
+.hero-exchanger-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+@media screen and (max-width: 1024px) {
+  .hero {
+    flex-direction: column;
+    gap: 32px;
+  }
+  .hero-content {
+    width: 100%;
+  }
+  .title {
+    font-size: 32px;
+  }
+  .description {
+    font-size: 20px;
+  }
+  .hero-exchanger-card {
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .hero-exchanger-container {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 24px;
+  }
+  .exchanger-icon {
+    top: -32px;
+    padding: 11px;
+    border-radius: 22px;
+    transform: translateX(-50%);
+    left: 50%;
+  }
+  .exchanger-icon img {
+    width: 60px;
+  }
+  .currency-card-title {
+    font-size: 22px;
+  }
+  .send-card .send {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-exchanger-wrapper {
+    width: 100%;
+  }
+  .hero-exchanger-card {
+    border-radius: 20px;
+    padding: 20px;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+  }
+  .hero-exchanger-card .amount {
+    font-size: 20px;
+  }
+  .send-card .send {
+    font-size: 16px;
+  }
+  .exchanger-icon {
+    top: -22px;
+    padding: 4px 22px;
+    border-radius: 10px;
+    transform: translateX(-50%);
+    left: 50%;
+  }
+  .exchanger-icon img {
+    width: 30px;
+  }
+  .currency-card-title {
+    font-size: 14px;
+  }
+  .active-currency .flag {
+    width: 23px;
+    height: auto;
+  }
+  .active-currency .flag img {
+    width: 23px;
+    height: auto;
+    object-fit: cover;
+  }
+  .active-currency .code {
+    font-size: 14px;
+  }
+  .active-currency {
+    gap: 4px;
+    padding: 8px 16px;
+    border-radius: 14px;
+  }
+  .down-icon {
+    width: 14px;
+  }
+  .hero-exchanger-card .amount {
+    min-width: auto;
+    max-width: 200px;
+  }
+  .exchange-buttons {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  .exchange-button {
+    padding: 12px 16px;
+    border-radius: 30px;
+    font-size: 14px;
+  }
 }
