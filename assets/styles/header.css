@@ -48,14 +48,13 @@
 }
 .links ul li a {
   text-decoration: none;
-  color: var(--black);
+  color: #000000B2;
   font-size: 22px;
   font-weight: 500;
   transition: all 0.3s ease;
 }
 .links ul li a:hover {
-  color: var(--primary-color);
-  text-decoration: underline;
+  color: var(--black);
 }
 .contacts {
   display: flex;
