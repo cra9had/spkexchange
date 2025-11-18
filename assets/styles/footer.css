@@ -58,6 +58,10 @@
   gap: 16px;
   cursor: pointer;
 }
+.footer-social-links a  img{
+  width: 40px;
+  object-fit: contain;
+}
 .footer-links ul li {
   list-style: none;
 }

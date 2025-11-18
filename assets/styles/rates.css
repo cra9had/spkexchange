@@ -66,11 +66,19 @@
 
 @media screen and (max-width: 1600px) {
   .rates-table-header-cell {
-    font-size: 28px;
+    font-size: 22px;
   }
   .rates-table-body-cell {
-    font-size: 28px;
+    font-size: 22px;
   }
+  .rates-table-body-cell img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.rates-content {
+  gap: 40px;
+}
 }
 @media screen and (max-width: 1024px) {
   .second-title {
