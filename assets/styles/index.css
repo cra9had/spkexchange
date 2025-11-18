@@ -42,5 +42,6 @@
   .main-page {
     padding: 16px;
     gap: 50px;
+    padding-bottom: 105px;
   }
 }

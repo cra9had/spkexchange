@@ -2,7 +2,7 @@ import { countries } from "/data/countries.js";
 
 const DEFAULT_CODES = ["RUB", "THB"]; // 1-karta "Отдаю", 2-karta "Получаю"
 
-function initCurrencyCard(cardElement, defaultCode) {
+function initCurrencyCard(cardElement, defaultCode, allowedCodes = null) {
   if (!cardElement) return;
 
   const currenciesContainer = cardElement.querySelector(".currencies");
@@ -15,7 +15,11 @@ function initCurrencyCard(cardElement, defaultCode) {
     return;
   }
 
-  const currenciesMarkup = countries
+  const countriesToShow = allowedCodes
+    ? countries.filter((country) => allowedCodes.includes(country.code))
+    : countries;
+
+  const currenciesMarkup = countriesToShow
     .map(
       (country) => `
         <div class="currency" data-code="${country.code}">
@@ -99,4 +103,4 @@ function initCurrencyCard(cardElement, defaultCode) {
 const cards = document.querySelectorAll(".hero-exchanger-card");
 
 initCurrencyCard(cards[0], DEFAULT_CODES[0]); // Отдаю — RUB
-initCurrencyCard(cards[1], DEFAULT_CODES[1]); // Получаю — THB
+initCurrencyCard(cards[1], DEFAULT_CODES[1], ["THB"]); // Получаю — THB (только Таиланд)
